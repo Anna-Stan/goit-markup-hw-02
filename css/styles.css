@@ -4,51 +4,94 @@ body {
 }
 
 :root {
-    --btm-color: #212121;
+    --title-color: #212121;
+    --text-color: #757575;
 }
 
-.link {text-decoration: none;}
-
-.list {list-style: none;}
-
-/*--------Header------------- */
-
-.logo {font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,19;
-    letter-spacing: 0.03em;
-    color: #2196F3;}
-
-.logo-studio {font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,19;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;;}
-
-.nav-list-link:hover, :focus {color: #2196F3;}
-
-.nav-list-link {font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0.02em; color: #212121
+.link {
+    text-decoration: none;
 }
 
-.header-contact {font-family: 'Roboto';
+.list {
+    list-style: none;
+}
+
+/*---------Header-----------*/
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo .logo-studio {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.nav-list-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 16px;
     letter-spacing: 0.02em;
-    color: #757575;}
+    color: var(--title-color);
+}
 
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: #2196F3;
+}
 
+.header-contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1/14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
 
-/*--------Main------------- */
+.header-contact-link:hover {
+    color: #2196F3;
+}
 
+/*----------Main-----------*/
 
-.visually-title {position: absolute;
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1, 76;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.content-title {
+    position: absolute;
     white-space: nowrap;
     width: 1px;
     height: 1px;
@@ -57,52 +100,83 @@ body {
     padding: 0;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    margin: -1px;}
+    margin: -1px;
+}
 
-.btn-list-item {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1, 63;
+.content-list-aftertitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color)
+}
+
+.content-list-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 71;
+    letter-spacing: 0.03em;
+    color: var(--text-color)
+}
+
+.cards-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--btm-color)
+    color: var(--title-color)
 }
 
-.btn-list-item:hover,.btn-list-item:focus
- {color: #FFFFFF; background-color: #2196F3; }
-
-.hero-item-title {font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    color: #212121;
+.person-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
 }
 
-.hero-item-after-title {
+
+.person-item-aftertitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.person-item-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.88;
+    line-height: 1, 18;
+    text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;}
+    color: var(--text-color);
+}
 
+/*--------------footer-------------*/
 
+.footer {
+    background-color: #2F303A;
+}
 
-
-/*--------Footer------------- */
-
-footer {background-color: #2F303A;}
-
-.adress-text {font-weight: 400;
+.adress-text {
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1, 71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-font-style: normal;}
+    font-style: normal;
+}
 
-
-.adress-item-contact {font-weight: 400;
+.adress-item-link {
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1, 71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-font-style: normal;}
+    font-style: normal;
+}
