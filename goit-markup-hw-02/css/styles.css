@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+:root {
+    --btm-color: #212121;
+}
+
+.link {text-decoration: none;}
+
+.list {list-style: none;}
+
+/*--------Header------------- */
+
+.logo {font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #2196F3;}
+
+.logo-studio {font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;;}
+
+.nav-list-link:hover, :focus {color: #2196F3;}
+
+.nav-list-link {font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em; color: #212121
+}
+
+.header-contact {font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #757575;}
+
+
+
+/*--------Main------------- */
+
+
+.visually-title {position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
+
+.btn-list-item {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--btm-color)
+}
+
+.btn-list-item:hover,.btn-list-item:focus
+ {color: #FFFFFF; background-color: #2196F3; }
+
+.hero-item-title {font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+
+.hero-item-after-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;}
+
+
+
+
+/*--------Footer------------- */
+
+footer {background-color: #2F303A;}
+
+.adress-text {font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+font-style: normal;}
+
+
+.adress-item-contact {font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+font-style: normal;}
