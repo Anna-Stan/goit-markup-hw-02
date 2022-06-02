@@ -1,14 +1,17 @@
-body {font-family: 'Roboto', sans-serif;
-    color: #212121;}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
 
-:root {--title-color: #212121;
---text-color: #757575;}
+:root {
+    --btm-color: #212121;
+}
 
 .link {text-decoration: none;}
 
 .list {list-style: none;}
 
-/*---------Header-----------*/
+/*--------Header------------- */
 
 .logo {font-family: 'Raleway';
     font-weight: 700;
@@ -16,57 +19,36 @@ body {font-family: 'Roboto', sans-serif;
     line-height: 1,19;
     letter-spacing: 0.03em;
     color: #2196F3;}
-.logo .logo-studio {font-family: 'Raleway';
+
+.logo-studio {font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0.03em;
-    color: #FFFFFF;}
+    color: #FFFFFF;;}
 
-.nav-list-link {font-weight: 500;
+.nav-list-link:hover, :focus {color: #2196F3;}
+
+.nav-list-link {font-family: 'Roboto';
+    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-color: var(--title-color);}
-
-.nav-list-link:hover,
-.nav-list-link:focus {
-    color: #2196F3;
+    line-height: 1,14;
+    letter-spacing: 0.02em; color: #212121
 }
 
-.header-contact-link {font-weight: 500;
+.header-contact {font-family: 'Roboto';
+    font-weight: 500;
     font-size: 14px;
-    line-height: 1/14;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     color: #757575;}
 
-.header-contact-link:hover {color: #2196F3;}
 
-/*----------Main-----------*/
 
-.hero {background-color: #2F303A;}
+/*--------Main------------- */
 
-.hero-title {font-weight: 900;
-    font-size: 44px;
-    line-height: 1,36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;}
 
-.hero-btn {font-family: inherit;
- font-weight: 700;
-    font-size: 16px;
-    line-height: 1,76;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
-
-.content-title {position: absolute;
+.visually-title {position: absolute;
     white-space: nowrap;
     width: 1px;
     height: 1px;
@@ -77,51 +59,38 @@ color: var(--title-color);}
     clip-path: inset(50%);
     margin: -1px;}
 
-.content-list-aftertitle {font-weight: 700;
-    font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-color: var(--title-color)}
-
-.content-list-text {font-weight: 400;
-    font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0.03em;
-color: var(--text-color)}
-
-.cards-title {font-weight: 700;
-    font-size: 36px;
-    line-height: 1,17;
-    text-align: center;
-    letter-spacing: 0.03em;
-color: var(--title-color)}
-
-.person-title {font-weight: 700;
-    font-size: 36px;
-    line-height: 1,17;
-    text-align: center;
-    letter-spacing: 0.03em;
-color: var(--title-color);}
-
-
-.person-item-aftertitle {font-weight: 500;
+.btn-list-item {
+    font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1, 63;
     text-align: center;
     letter-spacing: 0.03em;
-color: var(--title-color);}
+    color: var(--btm-color)
+}
 
-.person-item-text{font-weight: 400;
+.btn-list-item:hover,.btn-list-item:focus
+ {color: #FFFFFF; background-color: #2196F3; }
+
+.hero-item-title {font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+
+.hero-item-after-title {
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1,18;
-    text-align: center;
+    line-height: 1.88;
     letter-spacing: 0.03em;
-color: var(--text-color);}
+    color: #757575;}
 
-/*--------------footer-------------*/
 
-.footer {background-color: #2F303A;}
+
+
+/*--------Footer------------- */
+
+footer {background-color: #2F303A;}
 
 .adress-text {font-weight: 400;
     font-size: 14px;
@@ -130,9 +99,10 @@ color: var(--text-color);}
     color: #FFFFFF;
 font-style: normal;}
 
-.adress-item-link {font-weight: 400;
+
+.adress-item-contact {font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 font-style: normal;}
