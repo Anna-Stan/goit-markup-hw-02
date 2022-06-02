@@ -27,13 +27,13 @@ body {
     color: #2196F3;
 }
 
-.logo .logo-studio {
+.logo .logo-studio-header {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1, 19;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .nav-list-link {
@@ -162,6 +162,13 @@ body {
 .footer {
     background-color: #2F303A;
 }
+
+.logo .logo-studio {font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+color: #FFFFFF;}
 
 .adress-text {
     font-weight: 400;
